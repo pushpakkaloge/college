@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>STAFF</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/footerstyles.css">
+<meta charset="utf-8">
+
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+</head>
+<body>
+
+  <!-- sidebar -->
+    <div class="w3-row-padding">
+      <div class="w3-third">
+
+        <div class="wrapper">
+          <input type="checkbox" id="btn" hidden>
+          <label for="btn" class="menu-btn">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+          </label>
+          <nav id="sidebar">
+            <div class="title">
+              Explore
+            </div>
+            <ul class="list-items">
+              <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+              <li><a href="hod.html"><i class="fas fa-user-tie"></i>HOD Desk</a></li>
+              <li><a href="staff.html"><i class="fas fa-users"></i>Faculty</a></li>
+              <li><a href="#"><i class="fas fa-stream"></i>Academics</a></li>
+              <li><a href="acheive.html"><i class="fas fa-flask"></i>Research</a></li>
+              <li><a href="#"><i class="fas fa-swatchbook"></i>Infrastructure</a></li>
+              <li><a href="acheive.html"><i class="fas fa-medal"></i>Achivements</a></li>
+              <li><a href="about.html"><i class="fas fa-address-card"></i>About us</a></li>
+              <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact us</a></li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  <div class="header">
+      <div class=" row">
+        <div class="pccoe-logo-div col-xs-6 col-sm-3 col-md-3 col-lg-3">
+          <img  class="pccoe-logo" src="images/pccoe-logo.png" alt="">
+        </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  heading">
+
+            <h3 style="font-style:bold">PIMPRI CHINCHWAD EDUCATION TRUST's</h3>
+
+            <h1>PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h1>
+            <h3><strong>NBA</strong> Accreated | <strong>NAAC</strong> accreated with '<strong>A</strong>' Grade | An Autonomous Institute | <strong>AICTE</strong> Approved | <strong>ISO 9001</strong> | <strong>2015</strong> certified | Permanantly affiliated to <strong>SPPU</strong></h3>
+      </div>
+        <div class="pccoe-logo-div col-sm-3 col-md-3 col-lg-3">
+            <img  class=" pccoe-logo" src="images/pccoe-log.png" alt="">
+        </div>
+      </div>
+  </div>
+
+  </center></div>
+<h2><center><b>Faculty and Staff</b></center></h2><br/>
+<center><table>
+  <tr>
+    <th>Teaching Staff</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <center><td><img src="staff/chopade.png"></td></center>
+    <td>Maria Anders</td>
+    </center>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table></center>
+
+<div class="footer-div">
+  <div class="row">
+    <div class="footer-address col-sm-6 col-md-3 col-lg-3">
+                <h5>near Akurdi Railway Station Road, Sector No. 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra, Pune - 411044</h5>
+                <p>
+<h5>Call us: +020 2765 3168</h5>
+<h5>Email: pccoepunE@pccoepune.org</h5>
+<span>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+</span>
+
+                </p>
+    </div>
+  <div class="footer-important-links  col-sm-2 col-md-3 col-lg-3">
+      <h2>IMPORTANT LINKS</h2>
+      <h5><a id ="a" href="#">Home</a></h5>
+      <h5>Link</h5>
+      <h5>link</h5>
+      <h5>Explore</h5>
+      <h5>About us</h5>
+  </div>
+
+
+
+  <div class="footer-help-links col-xs-0 col-sm-0 col-md-3 col-lg-3">
+      <h2>HELP</h2>
+      <h5><a id ="a" href="index.html">Home</a></h5>
+
+      <h5>Explore</h5>
+      <h5>About us</h5>
+  </div>
+
+
+<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2" id="map" ></div>
+
+  </div>
+</div>
+
+<div class="footer-copyright">
+<h4>Copyright © 2021 pimpri chinchwad college of engineering. All rights reserved.</h3>
+</div>
+
+
+
+
+
+<script>
+     // Initialize and add the map
+     function initMap() {
+       // The location of Uluru
+       const uluru = { lat: 18.65189141998946, lng: 73.76168271735686 };
+       // The map, centered at Uluru
+       const map = new google.maps.Map(document.getElementById("map"), {
+         zoom: 9,
+         center: uluru,
+       });
+       // The marker, positioned at Uluru
+       const marker = new google.maps.Marker({
+         position: uluru,
+         map: map,
+       });
+     }
+   </script>
+<script
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP6PQA74YCaryQP8_IUxOfBLKXZ37EZAY&callback=initMap&libraries=&v=weekly"
+   async
+ ></script>
+</body>
+</html>
